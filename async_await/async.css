@@ -1,0 +1,80 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff7f50, #1e90ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Button styling */
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Output container styling */
+.output {
+  display: none; /* Hidden initially */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 300px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Post paragraph styling */
+.output p {
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+
+/* Output heading styling */
+.output h2 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
